@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildArrayfromPermutationCsharp", "BuildArrayfromPermutationCsharp.csproj", "{892C4284-CFCA-4739-8DED-2112002051EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892C4284-CFCA-4739-8DED-2112002051EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892C4284-CFCA-4739-8DED-2112002051EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892C4284-CFCA-4739-8DED-2112002051EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892C4284-CFCA-4739-8DED-2112002051EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A27A731-C526-441A-8984-77D042B9990C}
+	EndGlobalSection
+EndGlobal
