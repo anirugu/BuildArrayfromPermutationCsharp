@@ -1,4 +1,6 @@
-﻿namespace BuildArrayfromPermutationCsharp
+﻿using System.Collections.Immutable;
+
+namespace BuildArrayfromPermutationCsharp
 {
     internal class Program
     {
@@ -13,6 +15,12 @@ public class Solution
 {
     public int[] BuildArray(int[] nums)
     {
-        
+        List<int> vals = new List<int>();
+       
+        foreach(var num in nums)
+        {
+            vals.Add(nums[num]);
+        }
+        return vals.ToImmutableArray();
     }
 }
